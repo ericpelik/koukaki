@@ -1,0 +1,33 @@
+@keyframes fadeIn{
+    0% {opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.story >h2{
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+    animation-delay: 3s;
+    width: 100%;
+}
+
+#characters h3{
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+    animation-delay: 6s;
+}
+
+#place h3{
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+    animation-delay: 9s; 
+}
+
+#studio h2{
+    opacity: 0;
+    animation: fadeIn 3s forwards;
+    animation-delay: 12s; 
+}

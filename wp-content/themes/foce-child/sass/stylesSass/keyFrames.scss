@@ -1,0 +1,18 @@
+@keyframes anim-logo{
+    0%,100%{
+        transform : translate(0px,0px);
+    }
+    20%{
+        transform : translate(10px,10px);
+    }
+    40%{
+        transform: translate(-10px,-10px);
+    }
+    60%{
+        transform: translate(10px,-10px);
+    }
+    80%{
+        transform : translate(-10px,10px);
+    }
+}
+

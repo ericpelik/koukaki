@@ -1,0 +1,14 @@
+.banner {
+    background-image : none;
+    position: relative;
+    .banner-logo{
+        z-index: 1;
+        animation : anim-logo 7s infinite ease-in-out;
+    }
+    .banner-video{
+        position: absolute;
+        z-index: 0;
+        width: 100%;
+    }
+    
+}

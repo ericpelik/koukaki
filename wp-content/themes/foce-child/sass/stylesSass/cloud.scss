@@ -1,0 +1,24 @@
+@keyframes fadeInRight{
+
+}
+
+.story #place{
+    background-image: url(../../assets/images_koukaki/Studio_Koukaki-image_place.png);
+}
+
+.cloud{
+    align-self: self-start;
+    margin-top: 80px;
+    position: relative;
+    transform: translateX(200px);
+}
+
+.cloud img{
+    filter: blur(13px);
+}
+
+.cloud .little-cloud{
+    position: absolute;
+    top: 170px;
+    right: 375px;
+}

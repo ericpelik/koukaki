@@ -1,0 +1,120 @@
+@keyframes anim-logo {
+  0%, 100% {
+    transform: translate(0px, 0px);
+  }
+  20% {
+    transform: translate(10px, 10px);
+  }
+  40% {
+    transform: translate(-10px, -10px);
+  }
+  60% {
+    transform: translate(10px, -10px);
+  }
+  80% {
+    transform: translate(-10px, 10px);
+  }
+}
+.banner {
+  background-image: none;
+  position: relative;
+}
+.banner .banner-logo {
+  z-index: 1;
+  animation: anim-logo 7s infinite ease-in-out;
+}
+.banner .banner-video {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+}
+
+.story__article::after, .story h2::after, #studio h2::before, #studio h2::after, .site-footer::before, .site-footer::after, .site-footer ul::after {
+  animation: rotate 18s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.story > h2 {
+  opacity: 0;
+  animation: fadeIn 3s forwards;
+  animation-delay: 3s;
+  width: 100%;
+}
+
+#characters h3 {
+  opacity: 0;
+  animation: fadeIn 3s forwards;
+  animation-delay: 6s;
+}
+
+#place h3 {
+  opacity: 0;
+  animation: fadeIn 3s forwards;
+  animation-delay: 9s;
+}
+
+#studio h2 {
+  opacity: 0;
+  animation: fadeIn 3s forwards;
+  animation-delay: 12s;
+}
+
+@keyframes fadeInRight {}
+.story #place {
+  background-image: url(../../assets/images_koukaki/Studio_Koukaki-image_place.png);
+}
+
+.cloud {
+  align-self: self-start;
+  margin-top: 80px;
+  position: relative;
+  transform: translateX(200px);
+}
+
+.cloud img {
+  filter: blur(13px);
+}
+
+.cloud .little-cloud {
+  position: absolute;
+  top: 170px;
+  right: 375px;
+}
+
+.oscars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.oscars .texte-oscars {
+  position: relative;
+}
+.oscars .texte-oscars h3 {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  font-size: 35px;
+  padding-top: 46px;
+  text-align: start;
+  margin: 0;
+}
+
+/*# sourceMappingURL=index.css.map */
