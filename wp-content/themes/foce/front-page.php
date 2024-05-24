@@ -46,7 +46,7 @@ get_header();
                         echo '</figure>';
                     }
                     ?>
-                </div>
+                </div> 
             </article>
             <article id="place">
                 <div>
