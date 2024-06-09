@@ -13,8 +13,17 @@ let swiper = new Swiper(".swiper-container", {
     slideShadows: false,
   },
   loop:true,
-  autoplay:{
-    delay:1000,
+  loop_slide: 0,
+  on: {
+    init: function () {
+    
+      const swiperImages = document.querySelectorAll(".swiper-slide img");
 
+      // style CSS à chaque image
+      swiperImages.forEach((img) => {
+        img.style.display = "block";
+        img.style.maxWidth = "250px";
+      });
+    },
   },
 });

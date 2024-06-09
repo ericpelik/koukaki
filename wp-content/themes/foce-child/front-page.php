@@ -29,7 +29,7 @@ get_header();
                     <h3>Le Lieu</h3>
                     <p><?php echo get_theme_mod('place'); ?></p>
                 </div>
-                <div class="cloud">
+                <div id="cloud" class="cloud">
                     <img src="<?php echo get_stylesheet_directory_uri() . '/assets/images_koukaki/big_cloud.png'; ?> " alt="gros nuage">
                     <img class="little-cloud" src="<?php echo get_stylesheet_directory_uri() . '/assets/images_koukaki/little_cloud.png'; ?> " alt="petit nuage">
                 </div>

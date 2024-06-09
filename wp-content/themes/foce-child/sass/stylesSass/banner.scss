@@ -12,3 +12,11 @@
     }
     
 }
+
+.swiper-wrapper{
+    .swipper-slide{
+        display: flex !important;
+        justify-content: center !important;
+        margin: auto;
+    }
+}

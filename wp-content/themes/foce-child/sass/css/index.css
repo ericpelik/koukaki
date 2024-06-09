@@ -29,6 +29,12 @@
   width: 100%;
 }
 
+.swiper-wrapper .swipper-slide {
+  display: flex !important;
+  justify-content: center !important;
+  margin: auto;
+}
+
 .story__article::after, .story h2::after, #studio h2::before, #studio h2::after, .site-footer::before, .site-footer::after, .site-footer ul::after {
   animation: rotate 18s linear infinite;
 }
