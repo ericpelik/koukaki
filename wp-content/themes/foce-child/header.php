@@ -30,7 +30,7 @@
             <ul>
                 <li class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></li>
                 </ul>
-                <button class="menu-hamburger">
+                <button class="menu-hamburger" aria-expanded="false">
                     <span class="line"></span>
                     <span class="line"></span>
                     <span class="line"></span>

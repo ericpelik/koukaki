@@ -31,7 +31,28 @@
   margin-bottom: 4px;
   background-color: black;
 }
+#site-navigation .menu-hamburger .active {
+  animation: "animationR45 3s ease-in-out";
+}
 
+@keyframes animationR45 {
+  0% {
+    opacity: 0;
+    transform: "translateY(0) rotate(0)";
+  }
+  100% {
+    opacity: 1;
+    transform: "translateY(6) rotate(45deg)";
+  }
+}
+@keyframes animationR-45 {
+  from {
+    transform: "translateY(0) rotate(0)";
+  }
+  to {
+    transform: "translateY(-6) rotate(-45deg)";
+  }
+}
 @keyframes anim-logo {
   0%, 100% {
     transform: translate(0px, 0px);

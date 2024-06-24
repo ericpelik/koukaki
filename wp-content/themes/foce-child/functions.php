@@ -27,7 +27,7 @@ add_action('wp_enqueue_scripts', 'enqueue_swiper');
 function loadScriptChild(){
     wp_enqueue_script('swiper', get_stylesheet_directory_uri() . '/js/swiper.js', array('jquery'), '1.2.14', true);
     wp_enqueue_script('cloud', get_stylesheet_directory_uri() . '/js/cloud.js', array('jquery'), '1.0.0', true);
-
+    wp_enqueue_script('menuList', get_stylesheet_directory_uri() . '/js/menuList.js', array('jquery'), '1.0.0', true);
 }
 
 add_action('wp_enqueue_scripts', 'loadScriptChild');
