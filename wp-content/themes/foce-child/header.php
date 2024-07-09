@@ -38,6 +38,7 @@
 
 		</nav><!-- #site-navigation -->
         <section class="menuList">
+            <img id='flower' src='<?php echo get_stylesheet_directory_uri() . '/assets/images/flower.png'?>' alt='image flower'>
             <ul>
                 <li><a href="#story">Histoire</a></li>
                 <li><a href="#characters">Personnages</a></li>

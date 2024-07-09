@@ -1,4 +1,4 @@
-console.log('bonjour')
+//console.log('bonjour')
 let swiper = new Swiper(".swiper-container", {
   effect: "coverflow",
   grabCursor: true,

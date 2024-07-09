@@ -4,6 +4,10 @@
     align-items: center;
     padding-top: 24px;
 }
+ul, li, a{
+    text-decoration: none;
+    list-style: none;
+}
 
 .menuList{
     background-color: white;
@@ -11,7 +15,34 @@
     height: 100vh;
     display: none;
     justify-content: center;
+    position: relative;
+    ul{
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+text-align: center;
+gap:20px;
+
+    a{
+        font-family: Roboto Mono;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 84.41px;
+        text-align: center;
+        &:hover{
+            box-shadow: 0px 0px 14px 0px #FF5C00;
+        }
+   }
+}}
+#flower{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 45px;
+    height: 45px;
 }
+
 #site-navigation{
     position: relative !important;
 .menu-hamburger{
