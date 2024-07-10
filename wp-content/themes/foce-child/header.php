@@ -39,6 +39,15 @@
 		</nav><!-- #site-navigation -->
         <section class="menuList">
             <img id='flower' src='<?php echo get_stylesheet_directory_uri() . '/assets/images/flower.png'?>' alt='image flower'>
+            <img id='flower_1' src='<?php echo get_stylesheet_directory_uri() . '/assets/images/orchid.png'?>' alt='image orchid'>
+            <img id='flower_2' src='<?php echo get_stylesheet_directory_uri() . '/assets/images/random_flower.png'?>' alt='image random flower'>
+            <img id='flower_3' src='<?php echo get_stylesheet_directory_uri() . '/assets/images/Sunflower.png'?>' alt='image Sunflower'>
+            <img id='flower_4' src='<?php echo get_stylesheet_directory_uri() . '/assets/images/Hibiscus.png'?>' alt='image hibiscus'>
+            <img id='flower_5' src='<?php echo get_stylesheet_directory_uri() . '/assets/images/Image-logo-en-paralax.png'?>' alt='image logo'>
+            <img id='flower_6' src='<?php echo get_stylesheet_directory_uri() . '/assets/images/cat.png'?>' alt='image cat'>
+            <img id='flower_7' src='<?php echo get_stylesheet_directory_uri() . '/assets/images/cat-1.png'?>' alt='image cat 1'>
+            <img id='flower_8' src='<?php echo get_stylesheet_directory_uri() . '/assets/images/cat-2.png'?>' alt='image cat 2'>
+            <img id='flower_9' src='<?php echo get_stylesheet_directory_uri() . '/assets/images/Studio-Koukaki.png'?>' alt='image Studio Koukaki'>
             <ul>
                 <li><a href="#story">Histoire</a></li>
                 <li><a href="#characters">Personnages</a></li>
